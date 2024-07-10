@@ -1,13 +1,13 @@
 research_jobs_task:
   description: >
     Conduct thorough research to find potential job opportunities for the specified applicant.
-    Utilize various online resources and databases to gather a comprehensive list of potential job positions.
+    Utilize the linkedin jobs web pages to gather a comprehensive list of potential job positions.
     Ensure that the jobs meet the applicant's qualifications and career aspirations.
 
     Applicant's Resume/Curriculum:
     {applicant_resume}
   expected_output: >
-    A list of 10 potential job opportunities with brief descriptions and details highlighting their suitability.
+    A list of 10 potential job opportunities with descriptions, desired skillset for the job and details highlighting their suitability.
 
 match_and_score_jobs_task:
   description: >
