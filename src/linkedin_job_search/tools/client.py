@@ -22,7 +22,7 @@ class Client:
         if ',' in position:
             positions = position.split(',')
         
-        for position in positions:
+        for position in positions[:1]: # TODO use all lists I'm adding [:1] to decrease OPENAI costs
           encoded_string = urllib.parse.quote(position.lower())
           url = f"https://www.linkedin.com/jobs/search/?keywords={encoded_string}&origin=JOBS_HOME_KEYWORD_HISTORY&refresh=true"
           self.driver.navigate(url)

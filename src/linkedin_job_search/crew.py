@@ -77,6 +77,7 @@ class LinkedinJobSearchCrew():
 			config=self.tasks_config['report_jobs_task'],
 			agent=self.reporter(),
 			context=[self.research_candidates_task(), self.match_and_score_candidates_task(), self.outreach_strategy_task()],
+			output_file='report.md'
 		)
 
 	@crew

@@ -7,7 +7,8 @@ research_jobs_task:
     Applicant's Resume/Curriculum:
     {applicant_resume}
   expected_output: >
-    A list of 10 potential job opportunities with descriptions, desired skillset for the job and details highlighting their suitability.
+    A list of 10 potential job opportunities with descriptions, desired skillset for the job and details highlighting their suitability
+    and the job link to apply.
 
 match_and_score_jobs_task:
   description: >
@@ -36,5 +37,5 @@ report_jobs_task:
     Applicant's Resume/Curriculum:
     {applicant_resume}
   expected_output: >
-    A detailed report formatted as markdown without '```', highlighting the best job opportunities to pursue, including job descriptions, scores, and suggested outreach strategies.
-    ```
+    A detailed report formatted as markdown without '```', highlighting the best job opportunities to pursue with the link to apply,
+    including job descriptions, scores, an explanation on why they were selected and suggested outreach strategies.
